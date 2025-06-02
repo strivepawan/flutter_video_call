@@ -1,0 +1,83 @@
+name: call
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  agora_rtc_engine: ^6.5.2
+  bloc_concurrency: ^0.3.0
+  cloud_firestore: ^5.6.8
+  cloud_functions: ^5.5.1
+  dio: ^5.1.2
+  firebase_auth: ^5.5.4
+  firebase_core: ^3.13.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_callkit_voximplant: ^2.1.0
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_svg: ^2.0.7
+  # flutter_voip_push_notification:
+  #   git:
+  #     url: https://github.com/peerwaya/flutter_voip_push_notification.git
+  get_it: ^8.0.3
+  injectable: ^2.1.2
+  mask_text_input_formatter: ^2.4.0
+  onesignal_flutter: ^5.3.2
+  permission_handler: ^12.0.0+1
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  dart_code_metrics: ^5.7.3
+  flutter_gen_runner: ^5.3.1
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^2.1.6
+  very_good_analysis: ^8.0.0
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+
+  fonts:
+    outputs:
+      class_name: AppFonts
+  colors:
+    outputs:
+      class_name: AppColors
+    inputs:
+      - assets/colors/colors.xml
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Geometria
+      fonts:
+        - asset: assets/fonts/geometria/Geometria-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/geometria/Geometria-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/geometria/Geometria-Regular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima_nova/ProximaNova-Regular.ttf
+          weight: 400

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "955310764215",
+    "project_id": "call-9dafb",
+    "storage_bucket": "call-9dafb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955310764215:android:009cdcdf9497b226519d32",
+        "android_client_info": {
+          "package_name": "com.example.call"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOhbR5EIjTsdzxbADY3PnXZTpUoRCZ6R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
